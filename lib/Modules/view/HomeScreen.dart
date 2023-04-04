@@ -27,10 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         duration: Duration(seconds: 1), curve: Curves.fastOutSlowIn);
   }
 
-  ///
-
-  ///
-  ///
+  
   @override
   Widget build(BuildContext context) {
     var email = ModalRoute.of(context)!.settings.arguments as String;
